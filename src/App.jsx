@@ -6,8 +6,6 @@ import WeatherCard from "./components/WeatherCard";
 import Loader from "./components/Loader";
 import axios from "axios";
 import ForecastList from "./components/ForecastList";
-import { setActiveTab } from "./redux/weatherSlice"; 
-import WeatherTabs from "./components/Tabs";
 
 function App() {
   const [loading, setLoading] = useState(false);
