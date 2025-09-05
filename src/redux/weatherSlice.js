@@ -7,7 +7,7 @@ const weatherSlice = createSlice({
     forecast: [],
     status: "idle",
     error: null,
-    activeTab: "next", // "last" or "next"
+    activeTab: "next",
   },
   reducers: {
     setWeather: (state, action) => {

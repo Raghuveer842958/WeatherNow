@@ -12,7 +12,7 @@ function WeatherTabs() {
       value={tab}
       onValueChange={(value) => dispatch(setActiveTab(value))}
     >
-      {/* Tab List */}
+
       <Tabs.List className="flex bg-white/10 backdrop-blur-md rounded-xl p-1 gap-1">
         <Tabs.Trigger
           value="past"
